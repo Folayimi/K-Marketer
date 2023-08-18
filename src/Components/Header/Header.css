@@ -1,0 +1,45 @@
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+.header > .brandName {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.header > .navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5em;
+}
+
+.header > .navbar ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px; /* 171.429% */
+  letter-spacing: 0.2px;
+}
+
+.header > .navbar .searchCart{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:2em;
+}
+
+.navbar ul li{
+    cursor: pointer;
+}
+
+.navbar ul li:hover{
+    color:#FFA62B;
+}

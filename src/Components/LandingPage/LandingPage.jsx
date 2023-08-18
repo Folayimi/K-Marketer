@@ -5,6 +5,9 @@ const LandingPage = () => {
     <>
       <div className="container">        
         <HeroSection />
+        <div className="section1">
+            
+        </div>
       </div>
     </>
   );
