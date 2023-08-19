@@ -6,6 +6,7 @@ import w3 from "../../assets/w3.svg";
 import w4 from "../../assets/w4.svg";
 import w5 from "../../assets/w5.svg";
 import w6 from "../../assets/w6.svg";
+import { Play, PlayOutline } from "heroicons-react";
 const LandingPage = () => {
   const Reasons = [
     {
@@ -87,7 +88,11 @@ const LandingPage = () => {
             </p>
           </div>
           <div className="underlay">
-
+            <div className="videobg">
+              <div className="vidCont">
+                <Play color="#00A0C1" size="110px" style={{cursor:"pointer"}}/>
+              </div>
+            </div>
           </div>
         </div>
       </div>
