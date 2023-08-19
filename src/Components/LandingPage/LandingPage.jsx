@@ -49,8 +49,9 @@ const LandingPage = () => {
     <>
       <div className="container">
         <HeroSection />
-        <div className="section1">
-          <div className="topic1">
+
+        <div className="section">
+          <div className="topic">
             <h1>WHY CHOOSE US</h1>
             <p>
               Problems trying to resolve the conflict between the two major
@@ -75,6 +76,18 @@ const LandingPage = () => {
                 </>
               );
             })}
+          </div>
+        </div>
+        <div className="section" id="video">
+          <div className="topic">
+            <h1>We are providing best business service.</h1>
+            <p>
+              Problems trying to resolve the conflict between the two major
+              realms of Classical physics: Newtonian mechanics
+            </p>
+          </div>
+          <div className="underlay">
+
           </div>
         </div>
       </div>
