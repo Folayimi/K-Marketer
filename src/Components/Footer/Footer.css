@@ -94,5 +94,17 @@
 .cont button {
   padding: 0.8em 1em;
   border-radius: 0px 5px 5px 0px;
-  background: var(--primary-color, #ffa62b);    
+  background: var(--primary-color, #ffa62b);
+}
+
+.reserved {
+  width: 100%;
+  padding: 2em 15%;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 171.429% */
+  letter-spacing: 0.2px;
+  color: #fff;
+  background: var(--secondary-color-2, #16697a);
 }

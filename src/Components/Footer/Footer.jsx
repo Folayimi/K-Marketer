@@ -59,14 +59,17 @@ const Footer = () => {
           <div className="touch">
             <p>Get In Touch</p>
             <div>
-                <div className="cont">
-                    <input type="text" placeholder="Your Email" />
-                    <button>Subscribe</button>
-                </div>
-                <p className="dt">Lorem impsum dolor amit</p>
+              <div className="cont">
+                <input type="text" placeholder="Your Email" />
+                <button>Subscribe</button>
+              </div>
+              <p className="dt">Lorem impsum dolor amit</p>
             </div>
           </div>
         </div>
+      </div>
+      <div className="reserved">
+        <p>Made With Love By Figmaland All Right Reserved </p>
       </div>
     </>
   );
