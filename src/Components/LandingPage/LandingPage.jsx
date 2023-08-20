@@ -250,8 +250,8 @@ const LandingPage = () => {
             })}
           </div>
         </div>
-
         <Contact />
+        
       </div>
     </>
   );

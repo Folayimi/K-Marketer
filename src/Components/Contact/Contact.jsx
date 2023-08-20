@@ -37,6 +37,13 @@ const Contact = () => {
           </form>
         </div>
       </div>
+      <div className="consulting">
+        <div className="lz">
+          <h3>Consulting Agency For Your Business</h3>
+          <p>the quick fox jumps over the lazy dog</p>
+        </div>
+        <button style={{background: "var(--primary-color, #FFA62B)"}}>Contact Us</button>
+      </div>
     </>
   );
 };
