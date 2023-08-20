@@ -1,6 +1,98 @@
-.footer{
-    display:flex;
-    flex-direction:column;
-    padding:3em 15%;
-    gap:4em;
+.footer {
+  display: flex;
+  flex-direction: column;
+  padding: 3em 15%;
+  gap: 3em;
+}
+
+.footer > .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer > .top > .brand {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 133.333% */
+  letter-spacing: 0.1px;
+}
+
+.footer > .top > .handles {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+
+.footer > .contents {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  flex-wrap: wrap;
+  gap: 2em;
+}
+
+.footer > .contents ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.1px;
+}
+
+.footer > .contents ul li {
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.1px;
+}
+
+.touch {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1em;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.1px;
+}
+.touch > .cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.touch .dt {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 28px; /* 233.333% */
+  letter-spacing: 0.2px;
+}
+
+.cont input {
+  padding: 1em;
+  border-radius: 5px 0px 0px 5px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.1px;
+  background: white;
+}
+
+.cont button {
+  padding: 0.75em 1em;
+  border-radius: 0px 5px 5px 0px;
+  background: var(--primary-color, #ffa62b);    
 }
