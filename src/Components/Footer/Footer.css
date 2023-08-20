@@ -9,6 +9,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .footer > .top > .brand {
@@ -52,7 +53,11 @@
   font-size: 14px;
   font-weight: 400;
   line-height: 24px; /* 150% */
-  letter-spacing: 0.1px;
+  letter-spacing: 0.1px;  
+}
+
+.footer > .contents ul li:hover {
+  color: var(--primary-color, #ffa62b);
 }
 
 .touch {
