@@ -1,0 +1,31 @@
+.contact {
+  background-image: url("../../assets/cnt.svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.contact > .overlay {
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  padding: 5em 15%;
+  display: flex;
+}
+
+.contact > .overlay form {
+  display: flex;
+  flex-direction: column;
+  flex: 0 1 35em;
+  font-size: 16px;  
+  font-weight: 700;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.1px;
+}
+
+.overlay form h3 {
+  font-size: 40px;    
+  line-height: 57px; /* 142.5% */
+  letter-spacing: 0.2px;
+}
