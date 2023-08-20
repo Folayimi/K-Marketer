@@ -133,8 +133,7 @@ form > .form {
   font-size: 14px;
   font-weight: 700;
   line-height: 28px; /* 200% */
-  letter-spacing: 0.2px;
-  margin-top: 1em;
+  letter-spacing: 0.2px;  
 }
 
 .consulting button:focus {

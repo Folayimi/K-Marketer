@@ -21,6 +21,7 @@ import twitter from "../../assets/twitter.svg";
 
 import { Play } from "heroicons-react";
 import Contact from "../Contact/Contact";
+import Footer from "../Footer/Footer";
 const LandingPage = () => {
   const Reasons = [
     {
@@ -251,7 +252,7 @@ const LandingPage = () => {
           </div>
         </div>
         <Contact />
-        
+        <Footer />
       </div>
     </>
   );
