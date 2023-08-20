@@ -17,15 +17,82 @@
 .contact > .overlay form {
   display: flex;
   flex-direction: column;
+  gap: 2em;
   flex: 0 1 35em;
-  font-size: 16px;  
+  font-size: 16px;
   font-weight: 700;
   line-height: 24px; /* 150% */
   letter-spacing: 0.1px;
 }
 
 .overlay form h3 {
-  font-size: 40px;    
+  font-size: 40px;
   line-height: 57px; /* 142.5% */
   letter-spacing: 0.2px;
+}
+
+form > .form {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.form > .wrap {
+  display: flex;
+  justify-content: start;
+  gap: 1em;
+  flex-wrap: wrap;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.wrap input {
+  padding: 1em;
+  border-radius: 5px;
+  border: 1px solid var(--muted-color, #bdbdbd);
+  color: #bdbdbd;
+  background: #f9f9f9;
+  outline: none;
+  gap: 0.5em;
+  flex: 1 1 20em;
+}
+
+.wrap select {
+  padding: 1em;
+  border-radius: 5px;
+  border: 1px solid var(--muted-color, #bdbdbd);
+  color: #bdbdbd;
+  background: #f9f9f9;
+  outline: none;
+  gap: 0.5em;
+  flex: 1 1 20em;
+}
+
+.form textarea {
+  width: 100%;
+  height: 12em;
+  padding: 1em;
+  padding-left: 2em;
+  border-radius: 5px;
+  border: 1px solid var(--muted-color, #bdbdbd);
+  color: #bdbdbd;
+  background: #f9f9f9;
+  outline: none;
+  resize: none;
+}
+
+.form button {
+  padding: 1em 3em;
+  width:fit-content;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  background: var(--primary-color, #ffa62b);
+  outline: none;
+  cursor: pointer;
+  font-size: 14px;  
+  font-weight: 700;
+  line-height: 28px; /* 200% */
+  letter-spacing: 0.2px;
+  margin-top: 1em;
 }
