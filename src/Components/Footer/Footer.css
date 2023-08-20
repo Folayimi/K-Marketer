@@ -18,6 +18,7 @@
   font-weight: 700;
   line-height: 32px; /* 133.333% */
   letter-spacing: 0.1px;
+  cursor: pointer;
 }
 
 .footer > .top > .handles {
