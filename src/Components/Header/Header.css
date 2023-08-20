@@ -30,17 +30,40 @@
   letter-spacing: 0.2px;
 }
 
-.header > .navbar .searchCart{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    gap:2em;
+.header > .navbar .searchCart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
 }
 
-.navbar ul li{
-    cursor: pointer;
+.navbar ul li {
+  cursor: pointer;
 }
 
-.navbar ul li:hover{
-    color:#FFA62B;
+.navbar ul li:hover {
+  color: #ffa62b;
+}
+
+
+@media screen and (max-width: 650px) {
+  .header {
+    flex-direction: column;
+    gap: 1em;
+  }
+
+  .header > .navbar {
+    flex-direction: column;
+    gap: 1em;
+  }
+
+  .header > .navbar ul {
+    flex-direction: column;
+    gap: 1em;
+  }
+
+  .header > .navbar .searchCart {
+    flex-direction: column;
+    gap: 1em;
+  }
 }
