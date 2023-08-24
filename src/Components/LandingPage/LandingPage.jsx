@@ -22,6 +22,7 @@ import twitter from "../../assets/twitter.svg";
 import { Play } from "heroicons-react";
 import Contact from "../Contact/Contact";
 import Footer from "../Footer/Footer";
+import { motion } from "framer-motion";
 const LandingPage = () => {
   const Reasons = [
     {
@@ -116,6 +117,19 @@ const LandingPage = () => {
     },
   ];
 
+  const popping = {
+    hover: {
+      scale: 1.1,
+      textShadow: "0px 0px 8px rgb(255,255,255)",
+      boxShadow: "0px 0px 8px rgb(255,255,255)",
+      cursor: "pointer",
+      transition: {
+        duration: 0.3,
+        yoyo: Infinity,
+      },
+    },
+  };
+
   return (
     <>
       <div className="container">
@@ -149,7 +163,7 @@ const LandingPage = () => {
             })}
           </div>
         </div>
-            
+
         <div className="section" id="video">
           <div className="topic" id="topic">
             <h1>We are providing best business service.</h1>
@@ -161,11 +175,13 @@ const LandingPage = () => {
           <div className="underlay">
             <div className="videobg">
               <div className="vidCont">
-                <Play
-                  color="#00A0C1"
-                  size="110px"
-                  style={{ cursor: "pointer" }}
-                />
+                <motion.div style={{borderRadius:"50%"}} variants={popping} whileHover="hover">
+                  <Play
+                    color="#00A0C1"
+                    size="110px"
+                    style={{ cursor: "pointer" }}
+                  />
+                </motion.div>
               </div>
             </div>
           </div>
