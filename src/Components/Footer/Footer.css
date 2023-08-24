@@ -54,7 +54,7 @@
   font-size: 14px;
   font-weight: 400;
   line-height: 24px; /* 150% */
-  letter-spacing: 0.1px;  
+  letter-spacing: 0.1px;
 }
 
 .footer > .contents ul li:hover {
@@ -95,7 +95,7 @@
   line-height: 24px; /* 150% */
   letter-spacing: 0.1px;
   background: white;
-  color:black;
+  color: black;
 }
 
 .cont button {
@@ -114,4 +114,18 @@
   letter-spacing: 0.2px;
   color: #fff;
   background: var(--secondary-color-2, #16697a);
+}
+
+@media screen and (max-width: 650px) {
+  .footer {    
+    padding: 3em 10%;    
+  }
+
+  .footer > .contents {
+    flex-direction: column;
+  }
+
+  .reserved{
+    text-align: center;
+  }
 }

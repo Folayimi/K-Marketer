@@ -98,14 +98,15 @@ form > .form {
 }
 
 .form button:focus {
-    outline: none;
-  }
+  outline: none;
+}
 
 .consulting {
   background: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap:1em;
   flex-wrap: wrap;
   padding: 1em 15%;
   font-size: 24px;
@@ -133,7 +134,7 @@ form > .form {
   font-size: 14px;
   font-weight: 700;
   line-height: 28px; /* 200% */
-  letter-spacing: 0.2px;  
+  letter-spacing: 0.2px;
 }
 
 .consulting button:focus {
@@ -146,4 +147,18 @@ form > .form {
   font-weight: 500;
   line-height: 20px; /* 142.857% */
   letter-spacing: 0.2px;
+}
+
+@media screen and (max-width: 650px) {
+  .contact > .overlay {
+    padding: 5em 8%;
+  }
+
+  .form button {    
+    width: 100%;
+  }
+  
+  .consulting button {    
+    width: 100%;    
+  }
 }

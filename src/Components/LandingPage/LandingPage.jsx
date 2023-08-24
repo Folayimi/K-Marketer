@@ -149,7 +149,7 @@ const LandingPage = () => {
             })}
           </div>
         </div>
-
+            
         <div className="section" id="video">
           <div className="topic" id="topic">
             <h1>We are providing best business service.</h1>
