@@ -62,3 +62,17 @@
   border-radius: 2em;
   cursor: pointer;
 }
+
+@media screen and (max-width: 650px) {
+  .hero-section > .overlay > .contents h1 {
+    line-height: 40px; /* 137.931% */
+    font-size: 30px;
+  }
+  .hero-section > .overlay > .contents {    
+    margin-top: 2em;   
+  }
+  .hero-section > .overlay {   
+    padding: 2em 8% 6em 8%;    
+  }
+  
+}

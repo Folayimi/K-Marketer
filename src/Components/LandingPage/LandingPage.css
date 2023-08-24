@@ -49,7 +49,7 @@
   flex-direction: column;
   gap: 1em;
   padding: 1.5em;
-  flex: 0 1 18em;
+  flex: 1 1 18em;
   min-height: 12em;
   background: white;
   cursor: pointer;
@@ -214,6 +214,36 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap:1em;
+  gap: 1em;
   padding-top: 0.5em;
+}
+
+@media screen and (max-width: 650px) {
+  .section {
+    padding: 5em 8%;    
+  }
+
+  .section > .topic {
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .topic h1 {
+    font-size: 35px;
+  }
+
+  #video {
+    padding: 0em 5%;
+  }
+
+  #topic {
+    display: flex;
+    flex-direction: column;
+    gap:1em;
+  }
+
+  #topic h1{
+    font-size: 30px;
+    line-height: 45px;
+  }
 }
